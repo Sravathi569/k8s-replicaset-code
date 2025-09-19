@@ -45,7 +45,7 @@ spec:
                command: 
                  - sh
                  - -c 
-                 - "echo:hello"
+                 - echo hello
              initialDelaySeconds: 10
              periodSeconds: 2
              successThreshold: 1
