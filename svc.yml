@@ -5,7 +5,7 @@ metadata:
   namespace: dev-group
 spec:
   selector:
-    connection: connect-service
+    connection: attachinng-service
   type: loadbalancer
   ports:
     - port: 80           
