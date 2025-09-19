@@ -34,7 +34,7 @@ spec:
             successThreshold: 1
             failureThreshold: 2
            livenessProbe:
-             grpc: 
+             httpGet: 
                port: 80
              initialDelaySeconds: 10
              periodSeconds: 2
