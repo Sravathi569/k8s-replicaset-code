@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: rep-info
-  labels:
-    connection: attachinng-service
   annotations:
     adding: giving-additional-info
   namespace: dev-group
