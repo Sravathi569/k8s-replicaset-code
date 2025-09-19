@@ -6,8 +6,8 @@ metadata:
 spec:
   selector:
     connection: attachinng-service
-  type: loadbalancer
+  type: LoadBalancer   # ✅ Corrected casing
   ports:
-    - port: 80           
-      targetPort: 8080   
+    - port: 80
+      targetPort: 8080
       protocol: TCP
